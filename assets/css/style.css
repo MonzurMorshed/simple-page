@@ -1,0 +1,116 @@
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.navbar {
+    background-color: #ffff !important;
+    font-size: 1em;
+}
+
+.navbar-brand img {
+    width: 50px;
+}
+
+#navbarNav {
+    float: right;
+}
+
+.hero-background {
+    background-image: url('../images/bg-cyan.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.card-img {
+    width: 50%;
+    align-self: center;
+    height: 130px;
+    margin-top: 20%;
+}
+
+.card > hr {
+    margin-right: 0;
+    margin-left: 0;
+    width: 80%;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.card {
+    /* border: none !important; */
+    background-image: url('../images/card.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 15px;
+}
+
+p.card-text {
+    text-align: justify;
+    height: 234px;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 4em;
+    color: #fff;
+    border: 2px solid transparent;
+    background: linear-gradient(to right, #3498db, #ff7a18);
+    background-clip: padding-box;
+    animation: fadeIn 2s ease-in-out forwards;
+}
+
+.content h5{
+    animation: fadeIn 2s ease-in-out forwards;
+}
+
+.checking {
+    animation: fadeIn 2s ease-in-out forwards;
+    height: 100%;
+    background: #d5ffd0;
+    padding: 10%;
+}
+
+.age-checking {
+    float: right;
+    margin-top: 5px;
+}
+.age-checking-result {
+    height: 100%;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+
+@media only screen 
+  and (max-device-width: 767px) {
+    .content h2 {
+        font-size: 2em;
+    }
+}
+
+#menuHide {
+    display: none;
+}
